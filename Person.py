@@ -1,5 +1,7 @@
 from messenger.Messenger import Messenger
 
+# Should be a sort of factory method
+
 class Person:
     messenger: Messenger
 

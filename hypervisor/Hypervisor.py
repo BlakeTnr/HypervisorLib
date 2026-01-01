@@ -5,5 +5,5 @@ class Hypervisor:
     def __init__(self):
         pass
 
-    def createAccount(self, Person) -> HypervisorAccount:
+    def createAccount(self, person: Person) -> HypervisorAccount:
         return HypervisorAccount()

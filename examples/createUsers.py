@@ -4,7 +4,7 @@ from messenger.Messenger import Messenger
 
 
 
-proxmox = Hypervisor
+proxmox = Hypervisor()
 mattermost = Messenger()
 
 people: list[Person] = []
