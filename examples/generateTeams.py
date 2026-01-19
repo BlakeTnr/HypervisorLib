@@ -10,4 +10,4 @@ proxmox = Hypervisor()
 people: list[Person] = []
 for person in people:
     proxmox.createAccount(person)
-    person.
+    person
