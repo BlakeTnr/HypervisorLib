@@ -1,5 +1,10 @@
+from __future__ import annotations
+from typing import TYPE_CHECKING
+
 from abc import ABC
-from Person import Person
+
+if TYPE_CHECKING:
+    from Person import Person
 
 class Messenger(ABC):
     def __init__(self):
